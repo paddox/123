@@ -1,0 +1,12 @@
+#include "stdafx.h"
+
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	float r;
+	printf("Vychislenie dliny okruzhnosti");
+	printf("\nVvedite radius -> ");
+	scanf("%f",&r);
+	printf("Ploshad -> %f",3.14*r*r);
+	return 0;
+}
