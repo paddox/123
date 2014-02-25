@@ -7,6 +7,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	printf("Vychislenie ploshadi okruzhnosti");
 	printf("\nVvedite radius -> ");
 	scanf("%f",&r);
-	printf("Ploshad -> %f",3.14*r*r);
+	printf("Dlina -> %f",3.14*2*r);
 	return 0;
 }
